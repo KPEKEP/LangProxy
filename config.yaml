@@ -1,0 +1,10 @@
+HOST: "0.0.0.0"
+PORT: 8000
+MODEL_NAME: "facebook/seamless-m4t-v2-large"
+DEVICE: "cuda"
+CONNECT_TIMEOUT: 10000
+READ_TIMEOUT: 30000
+ENDPOINT: "http://localhost:4321/v1/chat/completions"
+SRC_LANGUAGE : "rus"
+TARGET_LANGUAGE : "eng"
+MAX_TRANSLATIONS_CACHE: 262144
