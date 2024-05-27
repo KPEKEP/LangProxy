@@ -40,6 +40,8 @@ A complete list of Python package dependencies can be found in `requirements.txt
 	DEVICE: "cuda"
 	CONNECT_TIMEOUT: 10000
 	READ_TIMEOUT: 30000
+   	WRITE_TIMEOUT: 30000
+   	POOL_TIMEOUT: 30000
 	ENDPOINT: "http://localhost:4321/v1/chat/completions"
 	SRC_LANGUAGE : "rus"
 	TARGET_LANGUAGE : "eng"
